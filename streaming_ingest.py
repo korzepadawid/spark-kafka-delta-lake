@@ -46,3 +46,4 @@ stream = (
 )
 
 stream.awaitTermination()
+spark.stop()
