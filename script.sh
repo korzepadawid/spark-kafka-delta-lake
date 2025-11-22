@@ -1,0 +1,1 @@
+docker run -p 9092:9092 -p 9644:9644 redpandadata/redpanda start --overprovisioned

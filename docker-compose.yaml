@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  redpanda:
+    image: redpandadata/redpanda
+    container_name: redpanda
+    command: ["start", "--overprovisioned"]
+    ports:
+      - "9092:9092"
+      - "9644:9644"
+    restart: unless-stopped
+    volumes:
+      - redpanda_data:/var/lib/redpanda
+
+volumes:
+  redpanda_data:

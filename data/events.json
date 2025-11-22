@@ -1,0 +1,62 @@
+[
+    {
+        "userId": 1,
+        "event": "PLAY",
+        "movieId": 101,
+        "ts": 1710000001
+    },
+    {
+        "userId": 1,
+        "event": "PAUSE",
+        "movieId": 101,
+        "ts": 1710000030
+    },
+    {
+        "userId": 2,
+        "event": "PLAY",
+        "movieId": 205,
+        "ts": 1710000100
+    },
+    {
+        "userId": 2,
+        "event": "STOP",
+        "movieId": 205,
+        "ts": 1710000500
+    },
+    {
+        "userId": 3,
+        "event": "PLAY",
+        "movieId": 301,
+        "ts": 1710000600
+    },
+    {
+        "userId": 3,
+        "event": "SEEK",
+        "movieId": 301,
+        "ts": 1710000650
+    },
+    {
+        "userId": 4,
+        "event": "PLAY",
+        "movieId": 103,
+        "ts": 1710000700
+    },
+    {
+        "userId": 4,
+        "event": "COMPLETE",
+        "movieId": 103,
+        "ts": 1710001200
+    },
+    {
+        "userId": 5,
+        "event": "PLAY",
+        "movieId": 450,
+        "ts": 1710001300
+    },
+    {
+        "userId": 5,
+        "event": "PAUSE",
+        "movieId": 450,
+        "ts": 1710001320
+    }
+]
